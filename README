@@ -1,0 +1,25 @@
+Name:Rutuja Kulkarni
+
+Course: 2D Game Engine Design 
+
+Clemson Email Address: rutujak@clemson.edu
+
+Project no: 6
+
+Project due date: December 12, 2018
+
+Game : Flappy bird 2.0
+
+Project features: 
+
+1. We can resize the bird for passing through narrow spaces (Bird gets into original shape automatically after 4 seconds)
+2. We can change the number of enemies through menu section
+3. Bird has to reach the end without colliding with pipes and he has to kill every butterfly
+4. Number of pipes can be changed through the XML file
+
+The easiest part of this project:
+1. Creating menu
+2. Sound effects
+
+Problems that I had in completing this project: 
+1. Retaining the enemy count after restarting the game
