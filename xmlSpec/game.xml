@@ -1,0 +1,313 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<title>Flappy Bird</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>rutujak</username>
+
+<view>
+  <width>1620</width>
+  <height>619</height>
+  <loc x="30" y="30"/>
+  <namePos x="30" y="590"/>	
+  <fpsPos x="30" y="50"/>  
+</view>
+
+<menu>
+  <width>854</width>
+  <height>480</height>
+  <noOfOptions>2</noOfOptions>
+  <loc x="0" y="0"/>
+  <msg x="30" y="60"/>
+  <optionLoc x="400" y="100" />
+  <color r="193" g="205" b="205" a="255"/>
+  <backColor r="72" g="95" b="119" a="255"/>
+  <option0>Go to Game</option0>
+  <option1>No. of Enemies</option1>
+  <spaces>70</spaces>
+</menu>
+
+<clickOn>
+  <file>assets/birds/menu_bird.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/birds/menu_bird.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOff>
+
+
+<world>
+  <width>3000</width>
+  <height>619</height>
+</world>
+
+<layer1>
+  <file>assets/dessert/layer_01.png</file>
+  <factor>17</factor>
+  <transparency>true</transparency>
+</layer1>
+
+<layer2>
+  <file>assets/dessert/layer_02.png</file>
+  <factor>16</factor>
+  <transparency>true</transparency>
+</layer2>
+
+<layer3>
+  <file>assets/dessert/layer_03.png</file>
+  <factor>15</factor>
+  <transparency>true</transparency>
+</layer3>
+
+<layer4>
+  <file>assets/dessert/layer_04.png</file>
+  <factor>12</factor>
+  <transparency>true</transparency>
+</layer4>
+
+<layer5>
+  <file>assets/dessert/layer_05.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</layer5>
+
+<font name="font">
+  <file>assets/fonts/Xenotron.ttf</file>
+  <size>24</size>
+  <red>106</red>
+  <green>90</green>
+  <blue>205</blue>
+  <alpha>255</alpha>
+</font>
+
+<ButterFly>
+  <file>assets/birds/butter1.png</file>
+  <startLoc x="550" y="600"/>
+  <frames>7</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <safeDistance>100</safeDistance>
+  <count>4</count>
+  <chunk>
+    <size>4</size>
+    <distance>100</distance>
+  </chunk>
+</ButterFly>
+
+<poles>
+	<count> 10 </count>
+</poles>
+<P1>
+  <file>assets/p1.png</file>
+  <startLoc x="200" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P1>
+<P2>
+  <file>assets/p2.png</file>
+  <startLoc x="500" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P2>
+<P3>
+  <file>assets/p3.png</file>
+  <startLoc x="700" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P3>
+<P4>
+  <file>assets/p4.png</file>
+  <startLoc x="900" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P4>
+<P5>
+  <file>assets/p5.png</file>
+  <startLoc x="1100" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P5>
+
+<P6>
+  <file>assets/p1.png</file>
+  <startLoc x="1300" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P6>
+<P7>
+  <file>assets/p2.png</file>
+  <startLoc x="1450" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P7>
+<P8>
+  <file>assets/p3.png</file>
+  <startLoc x="1600" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P8>
+<P9>
+  <file>assets/p4.png</file>
+  <startLoc x="1750" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P9>
+<P10>
+  <file>assets/p5.png</file>
+  <startLoc x="1900" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P10>
+
+
+<P11>
+  <file>assets/p6.png</file>
+  <startLoc x="2150" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P11>
+<P12>
+  <file>assets/p7.png</file>
+  <startLoc x="2300" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P12>
+<P13>
+  <file>assets/p8.png</file>
+  <startLoc x="2450" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P13>
+<P14>
+  <file>assets/p9.png</file>
+  <startLoc x="2600" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P14>
+<P15>
+  <file>assets/p10.png</file>
+  <startLoc x="2750" y="0"/>
+  <frames>1</frames>
+  <frameInterval>0</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</P15>
+
+<red>
+  <file>assets/birds/red_bird.png</file>
+  <startLoc x="20" y="0"/>
+  <frames>10</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>600</speedX>
+  <speedY>300</speedY>
+  <transparency>true</transparency>
+  <bullet>bullet1</bullet>
+  <dead>redDead</dead>		
+</red>
+
+<redDead>
+  <file>assets/birds/redDead.png</file>
+  <startLoc x="10" y="350"/>
+  <frames>1</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>0</speedX>
+  <speedY>-300</speedY>
+  <transparency>true</transparency>
+  <bullet>bullet1</bullet>	
+</redDead>
+
+<bullet1>
+  <file>assets/birds/poop_bullet.png</file>
+  <frames>4</frames>
+  <interval>100</interval>
+  <distance>800</distance>
+  <frameInterval>50</frameInterval>
+  <startLoc x="100" y="100"/>
+  <speedX>150</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+</bullet1>
+
+<hud>
+  <color r="200" g="200" b="200" t="125"></color>
+  <transparency>true</transparency>
+  <h>550</h>
+  <w>550</w>
+  <l1>W = UP</l1>
+  <l2>P = PAUSE/ UNPAUSE</l2>
+  <l3>SPACE = SHOOT</l3>
+  <l4>S = RESIZE PLAYER</l4>
+  <l5>R = RESTART</l5>
+<l6>Kill all the butterflies.</l6>
+<l7>Reach till the end.</l7>
+  <loc x="0" y="0"></loc>
+</hud>
+<nameFont name="nameFont">
+  <file>assets/fonts/YoungStar.ttf</file>
+  <size>24</size>
+  <red>25</red>
+  <green>25</green>
+  <blue>240</blue>
+  <alpha>0</alpha>
+</nameFont>
+
+</GameData>
