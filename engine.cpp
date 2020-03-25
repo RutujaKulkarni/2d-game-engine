@@ -234,7 +234,7 @@ bool Engine::play() {
           //std::cout << "returning : " << butterFliesCount << "\n";
           return true;
         }//setScale
-        if ( keystate[SDL_SCANCODE_S] ) {//for restarting the game
+        if ( keystate[SDL_SCANCODE_S] ) {
         	scaleToggle = !scaleToggle;
           sound[3]; 
           player->setScale(scaleToggle ? 0.5 : 1.2 );
