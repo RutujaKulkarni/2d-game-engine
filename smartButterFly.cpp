@@ -111,8 +111,8 @@ void SmartButterFly::update(Uint32 ticks) {
       //std::cout << "EVADE :  \n";
       if(distanceToEnemy > safeDistance) currentMode=NORMAL;
       else {
-        if ( x < ex ) goLeft();
-        if ( x > ex ) goRight();
+        if ( x > ex ) goLeft();
+        if ( x < ex ) goRight();
         if ( y < ey ) goUp();
         if ( y > ey ) goDown();
       }
