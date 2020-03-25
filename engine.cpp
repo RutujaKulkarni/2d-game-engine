@@ -72,11 +72,9 @@ Engine::Engine() :
     int poleCount = (poles % 15) +1 ;
     std::string s = "P"+ std::to_string(poleCount);
     std::cout << " ... " << s << "\n";
-    Sprite* tempSprite = new Sprite((s));
+    Sprite* tempSprite = new Sprite((s)); //creating new Pole sprite
     tempSprite->setX(multiplicationFactor*(poles+1));
     poleSprites.emplace_back(tempSprite);
-    //delete tempSprite;
-    //TODO: delete tempSprite
   }
 
   strategies.emplace_back( new PerPixelCollisionStrategy );
@@ -84,7 +82,7 @@ Engine::Engine() :
   int w = player->getScaledWidth();
   int h = player->getScaledHeight();
 
-    smartButters.reserve(Gamedata::getInstance().getXmlInt("ButterFly/count")); //add to XML
+    smartButters.reserve(Gamedata::getInstance().getXmlInt("ButterFly/count"));//getting total butterfly count from XML
     for (int i = 0; i < Gamedata::getInstance().getXmlInt("ButterFly/count"); i++){ //read number from XML
       smartButters.push_back(new SmartButterFly("ButterFly", pos, w, h, i%7)); //because, number of frames in butterfly sprites are 7
       player->attach(smartButters[i]);
